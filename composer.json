@@ -1,0 +1,25 @@
+{
+    "name": "tekintian/phpqrcode",
+    "description": "phpqrcode lib Package. for php generate qrcode with jpg, png, svg, bmp, eps and more export",
+    "keywords": ["phpqrcode","php", "qrcode", "barcode"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tekintian",
+            "email": "tekintian@gmail.com",
+            "homepage": "http://dev.yunnan.ws/"
+        }
+    ],
+    "require": {
+         "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpqrcode\\": ""
+        },
+        "files": [
+            "qrlib.php"
+        ]
+    }
+}
